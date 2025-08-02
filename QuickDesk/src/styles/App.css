@@ -1,0 +1,16 @@
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #f4f7fa, #d9e2f3);
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+}
+
+.btn {
+  @apply bg-teal-500 text-white px-4 py-2 rounded-lg mb-2 w-full hover:bg-teal-600 transition-all;
+}

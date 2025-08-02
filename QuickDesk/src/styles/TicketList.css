@@ -1,0 +1,14 @@
+.ticket-list {
+  @apply mt-4;
+}
+
+.ticket {
+  @apply p-3 mb-2 bg-gray-100 rounded-lg flex justify-between items-center hover:bg-gray-200 transition;
+}
+
+.action-btn {
+  @apply px-2 py-1 rounded text-white;
+}
+
+.upvote { @apply bg-green-500 hover:bg-green-600; }
+.downvote { @apply bg-red-500 hover:bg-red-600; }

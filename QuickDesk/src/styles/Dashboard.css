@@ -1,0 +1,11 @@
+.sidebar {
+  @apply bg-white p-4 rounded-xl shadow-lg;
+}
+
+.main-content {
+  @apply bg-white p-4 rounded-xl shadow-lg;
+}
+
+.create-btn {
+  @apply bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700;
+}
